@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url('./images/header-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.menu-container{
+    display: flex;
+    color: #FB9D5C;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+.header-bg{
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+}
+.info-side{
+    color: white;
+}
+.pic{
+    margin-top: -60px;
+}
+.info-text{
+    color: #FB9D5C;
+}
+.header-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #FB9D5C;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.service-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    height: 150px;
+}
+.service-des{
+    text-align: center;
+    margin-top: 50px;
+}
+.services{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.service-info{
+    height: 280px;
+    width: 30%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.service-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px 0px 50px;
+}
+.contact-side{
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.police-pic-side{
+    margin-left: 150px;
+}
+p{
+    color: grey;
+    line-height: 1.5;
+}
+.hire-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0DCAF0;
+}
+.call-us{
+    margin-top: -60px;
+    margin-left: 100px;
+}
+.footer-box{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    
+}
+.submit-email{
+    width: 300px;
+}
+.footer-logo-des{
+    margin-top: -50px;
+    margin-left: 90px;
+}
+.learn-more{
+    height: 200px;
+}
+.input-box{
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.address{
+    margin-top: -45px;
+    margin-left: 80px;
+}
